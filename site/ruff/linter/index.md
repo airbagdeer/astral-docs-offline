@@ -337,7 +337,7 @@ The file-level suppression comment specification is as follows:
 
 ### [Detecting unused suppressions](#detecting-unused-suppressions)
 
-Ruff implements a special rule, [`unused-noqa`](https://docs.astral.sh/ruff/rules/unused-noqa/), under the `RUF100` code, to enforce that your suppressions are "valid", in that the violations they *say* they ignore are actually being triggered and suppressed. To flag unused suppression comments, run Ruff with `--extend-select RUF100`, like so:
+Ruff implements a special rule, [`unused-noqa`](http://localhost:8000/ruff/rules/unused-noqa/), under the `RUF100` code, to enforce that your suppressions are "valid", in that the violations they *say* they ignore are actually being triggered and suppressed. To flag unused suppression comments, run Ruff with `--extend-select RUF100`, like so:
 
 ```
 $ ruff check /path/to/file.py --extend-select RUF100

@@ -10,46 +10,46 @@ than any individual tool.
 Ruff includes both a linter (`ruff check`) and a formatter (`ruff format`).
 
 When fetching documentation, use explicit `index.md` paths for directories, e.g.,
-`https://docs.astral.sh/ruff/editors/index.md`. This returns clean markdown instead
+`http://localhost:8000/ruff/editors/index.md`. This returns clean markdown instead
 of rendered HTML with JS/CSS.
 
 
 ## Concepts
 
-- [Preview](https://docs.astral.sh/ruff/preview/index.md)
-- [Versioning](https://docs.astral.sh/ruff/versioning/index.md)
+- [Preview](http://localhost:8000/ruff/preview/index.md)
+- [Versioning](http://localhost:8000/ruff/versioning/index.md)
 
 ## Configuration
 
-- [Configuring Ruff](https://docs.astral.sh/ruff/configuration/index.md)
+- [Configuring Ruff](http://localhost:8000/ruff/configuration/index.md)
 
 ## Editors
 
-- [Editor Integration](https://docs.astral.sh/ruff/editors/index.md)
-- [Features](https://docs.astral.sh/ruff/editors/features/index.md)
-- [Migrating from ruff-lsp](https://docs.astral.sh/ruff/editors/migration/index.md)
-- [Settings](https://docs.astral.sh/ruff/editors/settings/index.md)
-- [Setup](https://docs.astral.sh/ruff/editors/setup/index.md)
+- [Editor Integration](http://localhost:8000/ruff/editors/index.md)
+- [Features](http://localhost:8000/ruff/editors/features/index.md)
+- [Migrating from ruff-lsp](http://localhost:8000/ruff/editors/migration/index.md)
+- [Settings](http://localhost:8000/ruff/editors/settings/index.md)
+- [Setup](http://localhost:8000/ruff/editors/setup/index.md)
 
 ## Formatter
 
-- [The Ruff Formatter](https://docs.astral.sh/ruff/formatter/index.md)
-- [Known Deviations from Black](https://docs.astral.sh/ruff/formatter/black/index.md)
+- [The Ruff Formatter](http://localhost:8000/ruff/formatter/index.md)
+- [Known Deviations from Black](http://localhost:8000/ruff/formatter/black/index.md)
 
 ## Getting started
 
-- [Installing Ruff](https://docs.astral.sh/ruff/installation/index.md)
-- [Tutorial](https://docs.astral.sh/ruff/tutorial/index.md)
+- [Installing Ruff](http://localhost:8000/ruff/installation/index.md)
+- [Tutorial](http://localhost:8000/ruff/tutorial/index.md)
 
 ## Integrations
 
-- [Integrations](https://docs.astral.sh/ruff/integrations/index.md)
+- [Integrations](http://localhost:8000/ruff/integrations/index.md)
 
 ## Linter
 
-- [The Ruff Linter](https://docs.astral.sh/ruff/linter/index.md)
+- [The Ruff Linter](http://localhost:8000/ruff/linter/index.md)
 
 ## Reference
 
-- [FAQ](https://docs.astral.sh/ruff/faq/index.md)
+- [FAQ](http://localhost:8000/ruff/faq/index.md)
 

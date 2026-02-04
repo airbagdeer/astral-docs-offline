@@ -12,7 +12,7 @@
         <meta name="author" content="astral-sh">
       
       
-        <link rel="canonical" href="https://docs.astral.sh/ty/reference/rules/">
+        <link rel="canonical" href="http://localhost:8000/ty/reference/rules/">
       
       
         <link rel="prev" href="../typing-faq/">
@@ -70,11 +70,11 @@
 
     
     
-<link rel="apple-touch-icon" sizes="180x180" href="https://docs.astral.sh/static/apple-touch-icon.png"/>
-<link rel="icon" type="image/png" sizes="32x32" href="https://docs.astral.sh/static/favicon-32x32.png"/>
-<link rel="icon" type="image/png" sizes="16x16" href="https://docs.astral.sh/static/favicon-16x16.png"/>
-<link rel="manifest" href="https://docs.astral.sh/static/site.webmanifest"/>
-<link rel="mask-icon" href="https://docs.astral.sh/static/safari-pinned-tab.svg" color="#2e183d"/>
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:8000/static/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:8000/static/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:8000/static/favicon-16x16.png"/>
+<link rel="manifest" href="http://localhost:8000/static/site.webmanifest"/>
+<link rel="mask-icon" href="http://localhost:8000/static/safari-pinned-tab.svg" color="#2e183d"/>
 <meta name="msapplication-TileColor" content="#d7ff64"/>
 <meta name="theme-color" content="#ffffff"/>
 <meta name="robots" content="index,follow"/>
@@ -87,7 +87,7 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Astral Docs",
-        "url": "https://docs.astral.sh"
+        "url": "http://localhost:8000"
     }
 </script>
 
@@ -4164,7 +4164,7 @@ Added in <a href="https://github.com/astral-sh/ty/releases/tag/0.0.1-alpha.1">0.
 <li><a href="https://docs.python.org/3/library/exceptions.html#built-in-exceptions">Python documentation: Built-in Exceptions</a></li>
 </ul>
 <p><strong>Ruff rule</strong></p>
-<p>This rule corresponds to Ruff's <a href="https://docs.astral.sh/ruff/rules/except-with-non-exception-classes"><code>except-with-non-exception-classes</code> (<code>B030</code>)</a></p>
+<p>This rule corresponds to Ruff's <a href="http://localhost:8000/ruff/rules/except-with-non-exception-classes"><code>except-with-non-exception-classes</code> (<code>B030</code>)</a></p>
 <h2 id="invalid-explicit-override"><a class="toclink" href="#invalid-explicit-override"><code>invalid-explicit-override</code></a></h2>
 <p><small>
 Default level: <a href="../../rules#rule-levels" title="This lint has a default level of 'error'."><code>error</code></a> ·
@@ -4457,7 +4457,7 @@ and <code>__ne__</code> methods accept <code>object</code> as their second argum
 <p><strong>Why does ty disagree with Ruff about how to write my method?</strong></p>
 <p>Ruff has several rules that will encourage you to rename a parameter, or change its type
 signature, if it thinks you're falling into a certain anti-pattern. For example, Ruff's
-<a href="https://docs.astral.sh/ruff/rules/unused-method-argument/">ARG002</a> rule recommends that an
+<a href="http://localhost:8000/ruff/rules/unused-method-argument/">ARG002</a> rule recommends that an
 unused parameter should either be removed or renamed to start with <code>_</code>. Applying either of
 these suggestions can cause ty to start reporting an <code>invalid-method-override</code> error if
 the function in question is a method on a subclass that overrides a method on a superclass,
@@ -5641,7 +5641,7 @@ included by mistake, and should be removed to avoid confusion.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-115-1" name="__codelineno-115-1" href="#__codelineno-115-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">20</span> <span class="o">/</span> <span class="mi">2</span>
 </code></pre></div>
 <p><strong>Options</strong></p>
-<p>Set <a href="https://docs.astral.sh/ty/reference/configuration/#respect-type-ignore-comments"><code>analysis.respect-type-ignore-comments</code></a>
+<p>Set <a href="http://localhost:8000/ty/reference/configuration/#respect-type-ignore-comments"><code>analysis.respect-type-ignore-comments</code></a>
 to <code>false</code> to prevent this rule from reporting unused <code>type: ignore</code> comments.</p>
 <h2 id="useless-overload-body"><a class="toclink" href="#useless-overload-body"><code>useless-overload-body</code></a></h2>
 <p><small>

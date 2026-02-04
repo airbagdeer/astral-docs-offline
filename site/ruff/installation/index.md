@@ -2,7 +2,7 @@
 
 Ruff is available as [`ruff`](https://pypi.org/project/ruff/) on PyPI.
 
-Ruff can be invoked directly with [`uvx`](https://docs.astral.sh/uv/):
+Ruff can be invoked directly with [`uvx`](http://localhost:8000/uv/):
 
 ```
 uvx ruff check   # Lint all files in the current directory.

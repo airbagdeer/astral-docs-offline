@@ -12,7 +12,7 @@
         <meta name="author" content="charliermarsh">
       
       
-        <link rel="canonical" href="https://docs.astral.sh/ruff/linter/">
+        <link rel="canonical" href="http://localhost:8000/ruff/linter/">
       
       
         <link rel="prev" href="../installation/">
@@ -70,11 +70,11 @@
 
     
     
-<link rel="apple-touch-icon" sizes="180x180" href="https://docs.astral.sh/static/apple-touch-icon.png"/>
-<link rel="icon" type="image/png" sizes="32x32" href="https://docs.astral.sh/static/favicon-32x32.png"/>
-<link rel="icon" type="image/png" sizes="16x16" href="https://docs.astral.sh/static/favicon-16x16.png"/>
-<link rel="manifest" href="https://docs.astral.sh/static/site.webmanifest"/>
-<link rel="mask-icon" href="https://docs.astral.sh/static/safari-pinned-tab.svg" color="#2e183d"/>
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:8000/static/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:8000/static/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:8000/static/favicon-16x16.png"/>
+<link rel="manifest" href="http://localhost:8000/static/site.webmanifest"/>
+<link rel="mask-icon" href="http://localhost:8000/static/safari-pinned-tab.svg" color="#2e183d"/>
 <meta name="msapplication-TileColor" content="#d7ff64"/>
 <meta name="theme-color" content="#ffffff"/>
 <meta name="robots" content="index,follow"/>
@@ -83,7 +83,7 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Astral Docs",
-        "url": "https://docs.astral.sh"
+        "url": "http://localhost:8000"
     }
 </script>
 
@@ -1441,7 +1441,7 @@ equivalent to <code># ruff: noqa</code>.</p>
   specification is as in the inline <code>noqa</code> suppressions above.</li>
 </ul>
 <h3 id="detecting-unused-suppressions"><a class="toclink" href="#detecting-unused-suppressions">Detecting unused suppressions</a></h3>
-<p>Ruff implements a special rule, <a href="https://docs.astral.sh/ruff/rules/unused-noqa/"><code>unused-noqa</code></a>,
+<p>Ruff implements a special rule, <a href="http://localhost:8000/ruff/rules/unused-noqa/"><code>unused-noqa</code></a>,
 under the <code>RUF100</code> code, to enforce that your suppressions are "valid", in that the violations
 they <em>say</em> they ignore are actually being triggered and suppressed. To flag
 unused suppression comments, run Ruff with <code>--extend-select RUF100</code>, like so:</p>

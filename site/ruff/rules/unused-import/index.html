@@ -12,7 +12,7 @@
         <meta name="author" content="charliermarsh">
       
       
-        <link rel="canonical" href="https://docs.astral.sh/ruff/rules/unused-import/">
+        <link rel="canonical" href="http://localhost:8000/ruff/rules/unused-import/">
       
       
       
@@ -66,11 +66,11 @@
 
     
     
-<link rel="apple-touch-icon" sizes="180x180" href="https://docs.astral.sh/static/apple-touch-icon.png"/>
-<link rel="icon" type="image/png" sizes="32x32" href="https://docs.astral.sh/static/favicon-32x32.png"/>
-<link rel="icon" type="image/png" sizes="16x16" href="https://docs.astral.sh/static/favicon-16x16.png"/>
-<link rel="manifest" href="https://docs.astral.sh/static/site.webmanifest"/>
-<link rel="mask-icon" href="https://docs.astral.sh/static/safari-pinned-tab.svg" color="#2e183d"/>
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:8000/static/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:8000/static/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:8000/static/favicon-16x16.png"/>
+<link rel="manifest" href="http://localhost:8000/static/site.webmanifest"/>
+<link rel="mask-icon" href="http://localhost:8000/static/safari-pinned-tab.svg" color="#2e183d"/>
 <meta name="msapplication-TileColor" content="#d7ff64"/>
 <meta name="theme-color" content="#ffffff"/>
 <meta name="robots" content="index,follow"/>
@@ -79,7 +79,7 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Astral Docs",
-        "url": "https://docs.astral.sh"
+        "url": "http://localhost:8000"
     }
 </script>
 
@@ -889,7 +889,7 @@ interface, as in:</p>
 <a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;some_module&quot;</span><span class="p">]</span>
 </code></pre></div>
 <h2 id="preview"><a class="toclink" href="#preview">Preview</a></h2>
-<p>When <a href="https://docs.astral.sh/ruff/preview/">preview</a> is enabled (and certain simplifying assumptions
+<p>When <a href="http://localhost:8000/ruff/preview/">preview</a> is enabled (and certain simplifying assumptions
 are met), we analyze all import statements for a given module
 when determining whether an import is used, rather than simply
 the last of these statements. This can result in both different and
@@ -898,7 +898,7 @@ more import statements being marked as unused.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">a</span>
 <a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">a.b</span>
 </code></pre></div>
-<p>then both statements are marked as unused under <a href="https://docs.astral.sh/ruff/preview/">preview</a>, whereas
+<p>then both statements are marked as unused under <a href="http://localhost:8000/ruff/preview/">preview</a>, whereas
 only the second is marked as unused under stable behavior.</p>
 <p>As another example, if a module consists of</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">a.b</span>
@@ -906,7 +906,7 @@ only the second is marked as unused under stable behavior.</p>
 <a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
 <a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="n">a</span><span class="o">.</span><span class="n">b</span><span class="o">.</span><span class="n">foo</span><span class="p">()</span>
 </code></pre></div>
-<p>then a diagnostic will only be emitted for the first line under <a href="https://docs.astral.sh/ruff/preview/">preview</a>,
+<p>then a diagnostic will only be emitted for the first line under <a href="http://localhost:8000/ruff/preview/">preview</a>,
 whereas a diagnostic would only be emitted for the second line under
 stable behavior.</p>
 <p>Note that this behavior is somewhat subjective and is designed
@@ -922,7 +922,7 @@ either a redundant alias or, if already present in the file, an <code>__all__</c
 <code>__all__</code> declarations are present, Ruff will not offer a fix. Ruff will suggest an unsafe fix
 to remove third-party and standard library imports -- the fix is unsafe because the module's
 interface changes.</p>
-<p>See <a href="https://docs.astral.sh/ruff/faq/#how-does-ruff-determine-which-of-my-imports-are-first-party-third-party-etc">this FAQ section</a>
+<p>See <a href="http://localhost:8000/ruff/faq/#how-does-ruff-determine-which-of-my-imports-are-first-party-third-party-etc">this FAQ section</a>
 for more details on how Ruff
 determines whether an import is first or third-party.</p>
 <h2 id="example"><a class="toclink" href="#example">Example</a></h2>

@@ -173,7 +173,7 @@ Ruff is installable under any Python version from 3.7 onwards.
 
 ## [Do I need to install Rust to use Ruff?](#do-i-need-to-install-rust-to-use-ruff)
 
-Nope! Ruff is available as [`ruff`](https://pypi.org/project/ruff/) on PyPI. We recommend installing Ruff with [uv](https://docs.astral.sh/uv/), though it's also installable with `pip`, `pipx`, and a [variety of other package managers](../installation/):
+Nope! Ruff is available as [`ruff`](https://pypi.org/project/ruff/) on PyPI. We recommend installing Ruff with [uv](http://localhost:8000/uv/), though it's also installable with `pip`, `pipx`, and a [variety of other package managers](../installation/):
 
 ```
 $ # Install Ruff globally.

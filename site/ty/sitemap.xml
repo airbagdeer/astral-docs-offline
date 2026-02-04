@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.astral.sh/ty/</loc>
+         <loc>http://localhost:8000/ty/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/configuration/</loc>
+         <loc>http://localhost:8000/ty/configuration/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/editors/</loc>
+         <loc>http://localhost:8000/ty/editors/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/exclusions/</loc>
+         <loc>http://localhost:8000/ty/exclusions/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/installation/</loc>
+         <loc>http://localhost:8000/ty/installation/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/modules/</loc>
+         <loc>http://localhost:8000/ty/modules/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/python-version/</loc>
+         <loc>http://localhost:8000/ty/python-version/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/rules/</loc>
+         <loc>http://localhost:8000/ty/rules/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/suppression/</loc>
+         <loc>http://localhost:8000/ty/suppression/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/type-checking/</loc>
+         <loc>http://localhost:8000/ty/type-checking/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/features/diagnostics/</loc>
+         <loc>http://localhost:8000/ty/features/diagnostics/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/features/language-server/</loc>
+         <loc>http://localhost:8000/ty/features/language-server/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/features/type-system/</loc>
+         <loc>http://localhost:8000/ty/features/type-system/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/reference/cli/</loc>
+         <loc>http://localhost:8000/ty/reference/cli/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/reference/configuration/</loc>
+         <loc>http://localhost:8000/ty/reference/configuration/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/reference/editor-settings/</loc>
+         <loc>http://localhost:8000/ty/reference/editor-settings/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/reference/environment/</loc>
+         <loc>http://localhost:8000/ty/reference/environment/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/reference/exit-codes/</loc>
+         <loc>http://localhost:8000/ty/reference/exit-codes/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/reference/rules/</loc>
+         <loc>http://localhost:8000/ty/reference/rules/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/ty/reference/typing-faq/</loc>
+         <loc>http://localhost:8000/ty/reference/typing-faq/</loc>
          <lastmod>2026-01-27</lastmod>
          <changefreq>daily</changefreq>
     </url>

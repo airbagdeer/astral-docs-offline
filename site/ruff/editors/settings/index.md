@@ -190,7 +190,7 @@ require('lspconfig').ruff.setup {
 
 ### [`exclude`](#exclude)
 
-A list of file patterns to exclude from linting and formatting. See [the documentation](https://docs.astral.sh/ruff/settings/#exclude) for more details.
+A list of file patterns to exclude from linting and formatting. See [the documentation](http://localhost:8000/ruff/settings/#exclude) for more details.
 
 **Default value**: `null`
 
@@ -666,7 +666,7 @@ require('lspconfig').ruff.setup {
 
 ### [`select`](#select)
 
-Rules to enable by default. See [the documentation](https://docs.astral.sh/ruff/settings/#lint_select).
+Rules to enable by default. See [the documentation](http://localhost:8000/ruff/settings/#lint_select).
 
 **Default value**: `null`
 
@@ -754,7 +754,7 @@ require('lspconfig').ruff.setup {
 
 ### [`ignore`](#ignore)
 
-Rules to disable by default. See [the documentation](https://docs.astral.sh/ruff/settings/#lint_ignore).
+Rules to disable by default. See [the documentation](http://localhost:8000/ruff/settings/#lint_ignore).
 
 **Default value**: `null`
 

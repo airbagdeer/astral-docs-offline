@@ -12,7 +12,7 @@
         <meta name="author" content="charliermarsh">
       
       
-        <link rel="canonical" href="https://docs.astral.sh/ruff/rules/unnecessary-comprehension-in-call/">
+        <link rel="canonical" href="http://localhost:8000/ruff/rules/unnecessary-comprehension-in-call/">
       
       
       
@@ -66,11 +66,11 @@
 
     
     
-<link rel="apple-touch-icon" sizes="180x180" href="https://docs.astral.sh/static/apple-touch-icon.png"/>
-<link rel="icon" type="image/png" sizes="32x32" href="https://docs.astral.sh/static/favicon-32x32.png"/>
-<link rel="icon" type="image/png" sizes="16x16" href="https://docs.astral.sh/static/favicon-16x16.png"/>
-<link rel="manifest" href="https://docs.astral.sh/static/site.webmanifest"/>
-<link rel="mask-icon" href="https://docs.astral.sh/static/safari-pinned-tab.svg" color="#2e183d"/>
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:8000/static/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:8000/static/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:8000/static/favicon-16x16.png"/>
+<link rel="manifest" href="http://localhost:8000/static/site.webmanifest"/>
+<link rel="mask-icon" href="http://localhost:8000/static/safari-pinned-tab.svg" color="#2e183d"/>
 <meta name="msapplication-TileColor" content="#d7ff64"/>
 <meta name="theme-color" content="#ffffff"/>
 <meta name="robots" content="index,follow"/>
@@ -79,7 +79,7 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Astral Docs",
-        "url": "https://docs.astral.sh"
+        "url": "http://localhost:8000"
     }
 </script>
 
@@ -874,7 +874,7 @@ Added in <a href="https://github.com/astral-sh/ruff/releases/tag/v0.0.262">v0.0.
 duplication of elements in the passed iterable.</p>
 <h2 id="why-is-this-bad"><a class="toclink" href="#why-is-this-bad">Why is this bad?</a></h2>
 <p>Many builtin functions (this rule currently covers <code>any</code> and <code>all</code> in stable, along with <code>min</code>,
-<code>max</code>, and <code>sum</code> in <a href="https://docs.astral.sh/ruff/preview/">preview</a>) accept any iterable, including a generator. Constructing a
+<code>max</code>, and <code>sum</code> in <a href="http://localhost:8000/ruff/preview/">preview</a>) accept any iterable, including a generator. Constructing a
 temporary list via list comprehension is unnecessary and wastes memory for large iterables.</p>
 <p><code>any</code> and <code>all</code> can also short-circuit iteration, saving a lot of time. The unnecessary
 comprehension forces a full iteration of the input iterable, giving up the benefits of

@@ -12,7 +12,7 @@
         <meta name="author" content="astral-sh">
       
       
-        <link rel="canonical" href="https://docs.astral.sh/ty/reference/typing-faq/">
+        <link rel="canonical" href="http://localhost:8000/ty/reference/typing-faq/">
       
       
         <link rel="prev" href="../configuration/">
@@ -70,11 +70,11 @@
 
     
     
-<link rel="apple-touch-icon" sizes="180x180" href="https://docs.astral.sh/static/apple-touch-icon.png"/>
-<link rel="icon" type="image/png" sizes="32x32" href="https://docs.astral.sh/static/favicon-32x32.png"/>
-<link rel="icon" type="image/png" sizes="16x16" href="https://docs.astral.sh/static/favicon-16x16.png"/>
-<link rel="manifest" href="https://docs.astral.sh/static/site.webmanifest"/>
-<link rel="mask-icon" href="https://docs.astral.sh/static/safari-pinned-tab.svg" color="#2e183d"/>
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:8000/static/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:8000/static/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:8000/static/favicon-16x16.png"/>
+<link rel="manifest" href="http://localhost:8000/static/site.webmanifest"/>
+<link rel="mask-icon" href="http://localhost:8000/static/safari-pinned-tab.svg" color="#2e183d"/>
 <meta name="msapplication-TileColor" content="#d7ff64"/>
 <meta name="theme-color" content="#ffffff"/>
 <meta name="robots" content="index,follow"/>
@@ -87,7 +87,7 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Astral Docs",
-        "url": "https://docs.astral.sh"
+        "url": "http://localhost:8000"
     }
 </script>
 
@@ -1522,7 +1522,7 @@
 <h1 id="typing-faq"><a class="toclink" href="#typing-faq">Typing FAQ</a></h1>
 <p>This page answers some commonly asked questions about ty and Python's type system.</p>
 <h2 id="why-does-ty-report-an-error-on-my-code"><a class="toclink" href="#why-does-ty-report-an-error-on-my-code">Why does ty report an error on my code?</a></h2>
-<p>Check the <a href="https://docs.astral.sh/ty/reference/rules/">documentation</a> for the specific error code
+<p>Check the <a href="http://localhost:8000/ty/reference/rules/">documentation</a> for the specific error code
 you are seeing; it may explain the problem.</p>
 <h2 id="what-is-the-unknown-type-and-when-does-it-appear"><a class="toclink" href="#what-is-the-unknown-type-and-when-does-it-appear">What is the <code>Unknown</code> type and when does it appear?</a></h2>
 <p><code>Unknown</code> is ty's way of representing a type that could not be fully inferred. It behaves the same
@@ -1655,7 +1655,7 @@ which demonstrates that <code>FileUpload</code> instances are no longer accepted
 <h2 id="does-ty-have-a-strict-mode"><a class="toclink" href="#does-ty-have-a-strict-mode">Does ty have a strict mode?</a></h2>
 <p>Not yet. A stricter inference mode is tracked in
 <a href="https://github.com/astral-sh/ty/issues/1240">this issue</a>. In the meantime, you can consider using Ruff's
-<a href="https://docs.astral.sh/ruff/rules/#flake8-annotations-ann"><code>flake8-annotations</code> rules</a> to enforce
+<a href="http://localhost:8000/ruff/rules/#flake8-annotations-ann"><code>flake8-annotations</code> rules</a> to enforce
 more explicit type annotations in your code.</p>
 <h2 id="why-cant-ty-resolve-my-imports"><a class="toclink" href="#why-cant-ty-resolve-my-imports">Why can't ty resolve my imports?</a></h2>
 <p>Import resolution issues are often caused by a missing or incorrect environment configuration. When
@@ -1733,7 +1733,7 @@ check to narrow the type to <code>list[Item]</code>, but ty respects the possibi
 common subclass of both <code>Item</code> and <code>list</code> (which may not be a list of <code>Item</code>!), and so the narrowed
 type is instead <code>(Item &amp; Top[list[Unknown]]) | list[Item]</code>. This code can be made more robust by
 instead checking <code>if instance(x, Item)</code>, or by declaring the <code>Item</code> type as <code>@typing.final</code>.</p>
-<p>See also the <a href="https://docs.astral.sh/ty/features/type-system/#top-and-bottom-materializations">discussion
+<p>See also the <a href="http://localhost:8000/ty/features/type-system/#top-and-bottom-materializations">discussion
 here</a> and <a href="https://github.com/astral-sh/ty/issues/1578">in this
 issue</a>.</p>
 

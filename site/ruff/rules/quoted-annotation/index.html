@@ -12,7 +12,7 @@
         <meta name="author" content="charliermarsh">
       
       
-        <link rel="canonical" href="https://docs.astral.sh/ruff/rules/quoted-annotation/">
+        <link rel="canonical" href="http://localhost:8000/ruff/rules/quoted-annotation/">
       
       
       
@@ -66,11 +66,11 @@
 
     
     
-<link rel="apple-touch-icon" sizes="180x180" href="https://docs.astral.sh/static/apple-touch-icon.png"/>
-<link rel="icon" type="image/png" sizes="32x32" href="https://docs.astral.sh/static/favicon-32x32.png"/>
-<link rel="icon" type="image/png" sizes="16x16" href="https://docs.astral.sh/static/favicon-16x16.png"/>
-<link rel="manifest" href="https://docs.astral.sh/static/site.webmanifest"/>
-<link rel="mask-icon" href="https://docs.astral.sh/static/safari-pinned-tab.svg" color="#2e183d"/>
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:8000/static/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:8000/static/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:8000/static/favicon-16x16.png"/>
+<link rel="manifest" href="http://localhost:8000/static/site.webmanifest"/>
+<link rel="mask-icon" href="http://localhost:8000/static/safari-pinned-tab.svg" color="#2e183d"/>
 <meta name="msapplication-TileColor" content="#d7ff64"/>
 <meta name="theme-color" content="#ffffff"/>
 <meta name="robots" content="index,follow"/>
@@ -79,7 +79,7 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Astral Docs",
-        "url": "https://docs.astral.sh"
+        "url": "http://localhost:8000"
     }
 </script>
 
@@ -901,11 +901,11 @@ annotations on assignments in function bodies.</p>
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>    <span class="n">bar</span><span class="p">:</span> <span class="n">Bar</span>
 </code></pre></div>
 <h2 id="preview"><a class="toclink" href="#preview">Preview</a></h2>
-<p>When <a href="https://docs.astral.sh/ruff/preview/">preview</a> is enabled, if <a href="../../settings/#lint_future-annotations"><code>lint.future-annotations</code></a> is set to <code>true</code>,
+<p>When <a href="http://localhost:8000/ruff/preview/">preview</a> is enabled, if <a href="../../settings/#lint_future-annotations"><code>lint.future-annotations</code></a> is set to <code>true</code>,
 <code>from __future__ import annotations</code> will be added if doing so would allow an annotation to be
 unquoted.</p>
 <h2 id="fix-safety"><a class="toclink" href="#fix-safety">Fix safety</a></h2>
-<p>The rule's fix is marked as safe, unless <a href="https://docs.astral.sh/ruff/preview/">preview</a> and
+<p>The rule's fix is marked as safe, unless <a href="http://localhost:8000/ruff/preview/">preview</a> and
 <a href="../../settings/#lint_future-annotations"><code>lint.future-annotations</code></a> are enabled and a <code>from __future__ import annotations</code> import is added. Such an import may change the behavior of all annotations in the
 file.</p>
 <h2 id="options"><a class="toclink" href="#options">Options</a></h2>
@@ -914,9 +914,9 @@ file.</p>
 </ul>
 <h2 id="see-also"><a class="toclink" href="#see-also">See also</a></h2>
 <ul>
-<li><a href="https://docs.astral.sh/ruff/rules/quoted-annotation-in-stub/"><code>quoted-annotation-in-stub</code></a>: A rule that
+<li><a href="http://localhost:8000/ruff/rules/quoted-annotation-in-stub/"><code>quoted-annotation-in-stub</code></a>: A rule that
     removes all quoted annotations from stub files</li>
-<li><a href="https://docs.astral.sh/ruff/rules/quoted-type-alias/"><code>quoted-type-alias</code></a>: A rule that removes unnecessary quotes
+<li><a href="http://localhost:8000/ruff/rules/quoted-type-alias/"><code>quoted-type-alias</code></a>: A rule that removes unnecessary quotes
     from type aliases.</li>
 </ul>
 <h2 id="references"><a class="toclink" href="#references">References</a></h2>

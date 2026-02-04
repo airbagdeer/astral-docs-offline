@@ -4,7 +4,7 @@ This tutorial will walk you through the process of integrating Ruff's linter and
 
 ## [Getting Started](#getting-started)
 
-To start, we'll initialize a project using [uv](https://docs.astral.sh/uv/):
+To start, we'll initialize a project using [uv](http://localhost:8000/uv/):
 
 ```
 $ uv init --lib numbers

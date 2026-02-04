@@ -1,377 +1,377 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.astral.sh/uv/</loc>
+         <loc>http://localhost:8000/uv/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/</loc>
+         <loc>http://localhost:8000/uv/concepts/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/build-backend/</loc>
+         <loc>http://localhost:8000/uv/concepts/build-backend/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/cache/</loc>
+         <loc>http://localhost:8000/uv/concepts/cache/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/configuration-files/</loc>
+         <loc>http://localhost:8000/uv/concepts/configuration-files/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/indexes/</loc>
+         <loc>http://localhost:8000/uv/concepts/indexes/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/preview/</loc>
+         <loc>http://localhost:8000/uv/concepts/preview/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/python-versions/</loc>
+         <loc>http://localhost:8000/uv/concepts/python-versions/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/resolution/</loc>
+         <loc>http://localhost:8000/uv/concepts/resolution/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/tools/</loc>
+         <loc>http://localhost:8000/uv/concepts/tools/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/authentication/</loc>
+         <loc>http://localhost:8000/uv/concepts/authentication/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/authentication/certificates/</loc>
+         <loc>http://localhost:8000/uv/concepts/authentication/certificates/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/authentication/cli/</loc>
+         <loc>http://localhost:8000/uv/concepts/authentication/cli/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/authentication/git/</loc>
+         <loc>http://localhost:8000/uv/concepts/authentication/git/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/authentication/http/</loc>
+         <loc>http://localhost:8000/uv/concepts/authentication/http/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/authentication/third-party/</loc>
+         <loc>http://localhost:8000/uv/concepts/authentication/third-party/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/projects/</loc>
+         <loc>http://localhost:8000/uv/concepts/projects/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/projects/build/</loc>
+         <loc>http://localhost:8000/uv/concepts/projects/build/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/projects/config/</loc>
+         <loc>http://localhost:8000/uv/concepts/projects/config/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/projects/dependencies/</loc>
+         <loc>http://localhost:8000/uv/concepts/projects/dependencies/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/projects/export/</loc>
+         <loc>http://localhost:8000/uv/concepts/projects/export/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/projects/init/</loc>
+         <loc>http://localhost:8000/uv/concepts/projects/init/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/projects/layout/</loc>
+         <loc>http://localhost:8000/uv/concepts/projects/layout/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/projects/run/</loc>
+         <loc>http://localhost:8000/uv/concepts/projects/run/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/projects/sync/</loc>
+         <loc>http://localhost:8000/uv/concepts/projects/sync/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/concepts/projects/workspaces/</loc>
+         <loc>http://localhost:8000/uv/concepts/projects/workspaces/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/getting-started/</loc>
+         <loc>http://localhost:8000/uv/getting-started/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/getting-started/features/</loc>
+         <loc>http://localhost:8000/uv/getting-started/features/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/getting-started/first-steps/</loc>
+         <loc>http://localhost:8000/uv/getting-started/first-steps/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/getting-started/help/</loc>
+         <loc>http://localhost:8000/uv/getting-started/help/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/getting-started/installation/</loc>
+         <loc>http://localhost:8000/uv/getting-started/installation/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/</loc>
+         <loc>http://localhost:8000/uv/guides/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/install-python/</loc>
+         <loc>http://localhost:8000/uv/guides/install-python/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/package/</loc>
+         <loc>http://localhost:8000/uv/guides/package/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/projects/</loc>
+         <loc>http://localhost:8000/uv/guides/projects/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/scripts/</loc>
+         <loc>http://localhost:8000/uv/guides/scripts/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/tools/</loc>
+         <loc>http://localhost:8000/uv/guides/tools/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/alternative-indexes/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/alternative-indexes/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/aws-lambda/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/aws-lambda/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/coiled/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/coiled/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/dependency-bots/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/dependency-bots/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/docker/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/docker/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/fastapi/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/fastapi/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/github/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/github/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/gitlab/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/gitlab/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/jupyter/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/jupyter/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/marimo/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/marimo/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/pre-commit/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/pre-commit/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/integration/pytorch/</loc>
+         <loc>http://localhost:8000/uv/guides/integration/pytorch/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/migration/</loc>
+         <loc>http://localhost:8000/uv/guides/migration/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/guides/migration/pip-to-project/</loc>
+         <loc>http://localhost:8000/uv/guides/migration/pip-to-project/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/pip/</loc>
+         <loc>http://localhost:8000/uv/pip/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/pip/compatibility/</loc>
+         <loc>http://localhost:8000/uv/pip/compatibility/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/pip/compile/</loc>
+         <loc>http://localhost:8000/uv/pip/compile/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/pip/dependencies/</loc>
+         <loc>http://localhost:8000/uv/pip/dependencies/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/pip/environments/</loc>
+         <loc>http://localhost:8000/uv/pip/environments/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/pip/inspection/</loc>
+         <loc>http://localhost:8000/uv/pip/inspection/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/pip/packages/</loc>
+         <loc>http://localhost:8000/uv/pip/packages/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/</loc>
+         <loc>http://localhost:8000/uv/reference/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/benchmarks/</loc>
+         <loc>http://localhost:8000/uv/reference/benchmarks/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/cli/</loc>
+         <loc>http://localhost:8000/uv/reference/cli/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/environment/</loc>
+         <loc>http://localhost:8000/uv/reference/environment/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/installer/</loc>
+         <loc>http://localhost:8000/uv/reference/installer/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/settings/</loc>
+         <loc>http://localhost:8000/uv/reference/settings/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/storage/</loc>
+         <loc>http://localhost:8000/uv/reference/storage/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/internals/</loc>
+         <loc>http://localhost:8000/uv/reference/internals/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/internals/resolver/</loc>
+         <loc>http://localhost:8000/uv/reference/internals/resolver/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/policies/</loc>
+         <loc>http://localhost:8000/uv/reference/policies/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/policies/license/</loc>
+         <loc>http://localhost:8000/uv/reference/policies/license/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/policies/platforms/</loc>
+         <loc>http://localhost:8000/uv/reference/policies/platforms/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/policies/versioning/</loc>
+         <loc>http://localhost:8000/uv/reference/policies/versioning/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/troubleshooting/</loc>
+         <loc>http://localhost:8000/uv/reference/troubleshooting/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/troubleshooting/build-failures/</loc>
+         <loc>http://localhost:8000/uv/reference/troubleshooting/build-failures/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.astral.sh/uv/reference/troubleshooting/reproducible-examples/</loc>
+         <loc>http://localhost:8000/uv/reference/troubleshooting/reproducible-examples/</loc>
          <lastmod>2026-02-04</lastmod>
          <changefreq>daily</changefreq>
     </url>

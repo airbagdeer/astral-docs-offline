@@ -44,7 +44,7 @@ You can even run these actions on-save. For example, to fix all issues and organ
 
 Ruff's automatic fixes are labeled as "safe" and "unsafe". By default, the "Fix all" action will not apply unsafe fixes. However, unsafe fixes can be applied manually with the "Quick fix" action. Application of unsafe fixes when using "Fix all" can be enabled by setting `unsafe-fixes = true` in your Ruff configuration file.
 
-See the [Ruff fix documentation](https://docs.astral.sh/ruff/linter/#fix-safety) for more details on how fix safety works.
+See the [Ruff fix documentation](http://localhost:8000/ruff/linter/#fix-safety) for more details on how fix safety works.
 
 ## [Hover](#hover)
 
